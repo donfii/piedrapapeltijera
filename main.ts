@@ -12,7 +12,6 @@ input.onButtonPressed(Button.B, function () {
 })
 let tool = 0
 radio.setGroup(69)
-tool = randint(0, 2)
 if (tool == 0) {
     basic.showIcon(IconNames.Square)
 } else if (tool == 1) {
